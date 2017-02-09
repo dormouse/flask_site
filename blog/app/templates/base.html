@@ -1,0 +1,15 @@
+<html>
+
+<head>
+{% if blog_title %}
+    <title>{{ blog_title }} - flaskblog</title>
+{% else %}
+    <title>Welcome to flaskblog</title>
+{% endif %}
+</head>
+
+<body>
+{% block body %}{% endblock %}
+</body>
+
+</html>
